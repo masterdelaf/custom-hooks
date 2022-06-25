@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react"
-import { todoReducer } from "../08-useReducer/todoReducer"
+import { todoReducer } from "./todoReducer"
 
 const initialState = []
 // Funcion para iniciar localStorage,si hay algo lo trae y si no hay nada sería NULL por lo que inicializamos en array vacío
